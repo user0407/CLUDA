@@ -4,21 +4,21 @@
 
 ## Please download the following datasets from the corresponding links and save them to `./data` folder
 
-**Cityscapes:** Please, download leftImg8bit_trainvaltest.zip and
+**Cityscapes:** Download leftImg8bit_trainvaltest.zip and
 gt_trainvaltest.zip from [here](https://www.cityscapes-dataset.com/downloads/)
 and extract them to `data/cityscapes`.
 
-**GTA:** Please, download all image and label packages from
+**GTA:** Download images, labels from
 [here](https://download.visinf.tu-darmstadt.de/data/from_games/) and extract
 them to `data/gta`.
 
-**Synthia:** Please, download SYNTHIA-RAND-CITYSCAPES from
+**Synthia:** Download SYNTHIA-RAND-CITYSCAPES from
 [here](http://synthia-dataset.net/downloads/) and extract it to `data/synthia`.
 
-## After saving the dataset, Please make sure that you file representation looks exactly like following chart:
+## After saving the dataset, Please make sure that your directory tree looks exactly like following chart:
 
 ```none
-DAFormer
+CLUDA
 ├── ...
 ├── data
 │   ├── cityscapes
@@ -36,6 +36,14 @@ DAFormer
 │   │   ├── GT
 │   │   │   ├── LABELS
 ├── ...
+```
+
+## Training
+
+For running the main experiment please do the following:
+
+```shell
+./run_train.sh <name of the experiments (any name of your choice)>
 ```
 
 ## Acknowledgements
