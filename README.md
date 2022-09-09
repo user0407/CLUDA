@@ -40,10 +40,10 @@ CLUDA
 
 ## Testing & Predictions
 
-For testing, please replace `220609_1430_gtaHR2csHR_hrda_s1_5fbff.json` in `test.sh` with the json file generated in the output folder of your experiment and run the following command:
+For testing, please replace `220609_1430_gtaHR2csHR_hrda_s1_5fbff.json` in `test.sh` with the json file generated in the output_dir_name of your experiment and run the following command:
 
 ```shell
-sh test.sh <output dir name>
+sh test.sh <output_dir_name>
 ```
 
 ## Training
