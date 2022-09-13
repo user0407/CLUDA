@@ -28,8 +28,7 @@ from mmseg.models.utils.dacs_transforms import (denorm, get_class_masks,
 from mmseg.models.utils.visualization import subplotimg
 from mmseg.utils.utils import downscale_label_ratio
 
-from ..losses.contrastive_loss import contrastive_loss, centroid_cl, \
- arc_face, contrastive_loss_mixed, stuff_class_cl, multi_resolution_cl
+from ..losses.contrastive_loss import contrastive_loss, multi_resolution_cl
 import torch.nn.functional as F
 
 
