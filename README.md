@@ -54,6 +54,10 @@ For running the main experiment please do the following:
 ./run_train.sh <name of the experiments (any name of your choice)>
 ```
 
+## Note
+
+For reproducing results on DAFormer + CLUDA, please set `FD loss hyperparameter (lambda) = 0.009` and `Learning rate power = 1.1` while training with Swin-L backbone. For same experiment with SegFormer backbone, the above parameters shall remain same as mentioned in DAFormer.
+
 ## Acknowledgements
 
 We have used code from following open-source repositories. We thank the authors for making their work public. 
